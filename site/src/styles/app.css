@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body {
+    @apply bg-white text-gray-900 antialiased;
+  }
+
+  /* The landing page is a light design; keep form controls light in every OS
+     theme so inputs never render as dark boxes on white cards. */
+  html {
+    color-scheme: light;
+  }
+}

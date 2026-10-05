@@ -1,0 +1,13 @@
+# dependencies and build output — regenerated, never committed
+**/node_modules/
+**/dist/
+**/.run/
+**/.tanstack/
+**/.vercel/
+
+# secrets — never committed, with no exceptions
+.env
+.env.*
+!.env.example
+*.local
+*.log
